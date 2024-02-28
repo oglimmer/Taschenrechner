@@ -15,7 +15,7 @@
         <dependency>
             <groupId>de.oglimmer</groupId>
             <artifactId>math</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
     <build>
@@ -47,15 +47,9 @@
     </build>
     <repositories>
         <repository>
-          <id>central</id>
-          <url>https://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
-          <id>github</id>
-          <url>https://maven.pkg.github.com/oglimmer/math-parser</url>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
+        <id>oglimmer-repository-releases</id>
+        <name>oglimmer's Repository</name>
+        <url>https://mvn.oglimmer.com/releases</url>
         </repository>
     </repositories>
 </project>
